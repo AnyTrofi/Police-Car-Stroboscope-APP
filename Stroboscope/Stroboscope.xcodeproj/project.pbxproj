@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44A0E02827D3DE64009B8480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A0E02727D3DE64009B8480 /* AppDelegate.swift */; };
+		44A0E02A27D3DE64009B8480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A0E02927D3DE64009B8480 /* SceneDelegate.swift */; };
+		44A0E02C27D3DE64009B8480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A0E02B27D3DE64009B8480 /* ViewController.swift */; };
+		44A0E02F27D3DE64009B8480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A0E02D27D3DE64009B8480 /* Main.storyboard */; };
+		44A0E03127D3DE65009B8480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A0E03027D3DE65009B8480 /* Assets.xcassets */; };
+		44A0E03427D3DE65009B8480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A0E03227D3DE65009B8480 /* LaunchScreen.storyboard */; };
+		44A0E03F27D3DE65009B8480 /* StroboscopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A0E03E27D3DE65009B8480 /* StroboscopeTests.swift */; };
+		44A0E04927D3DE65009B8480 /* StroboscopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A0E04827D3DE65009B8480 /* StroboscopeUITests.swift */; };
+		44A0E04B27D3DE65009B8480 /* StroboscopeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A0E04A27D3DE65009B8480 /* StroboscopeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44A0E03B27D3DE65009B8480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A0E01C27D3DE64009B8480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A0E02327D3DE64009B8480;
+			remoteInfo = Stroboscope;
+		};
+		44A0E04527D3DE65009B8480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A0E01C27D3DE64009B8480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A0E02327D3DE64009B8480;
+			remoteInfo = Stroboscope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44A0E02427D3DE64009B8480 /* Stroboscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stroboscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A0E02727D3DE64009B8480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44A0E02927D3DE64009B8480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44A0E02B27D3DE64009B8480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44A0E02E27D3DE64009B8480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44A0E03027D3DE65009B8480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44A0E03327D3DE65009B8480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44A0E03527D3DE65009B8480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A0E03A27D3DE65009B8480 /* StroboscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StroboscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A0E03E27D3DE65009B8480 /* StroboscopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StroboscopeTests.swift; sourceTree = "<group>"; };
+		44A0E04427D3DE65009B8480 /* StroboscopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StroboscopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A0E04827D3DE65009B8480 /* StroboscopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StroboscopeUITests.swift; sourceTree = "<group>"; };
+		44A0E04A27D3DE65009B8480 /* StroboscopeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StroboscopeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A0E02127D3DE64009B8480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0E03727D3DE65009B8480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0E04127D3DE65009B8480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A0E01B27D3DE64009B8480 = {
+			isa = PBXGroup;
+			children = (
+				44A0E02627D3DE64009B8480 /* Stroboscope */,
+				44A0E03D27D3DE65009B8480 /* StroboscopeTests */,
+				44A0E04727D3DE65009B8480 /* StroboscopeUITests */,
+				44A0E02527D3DE64009B8480 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44A0E02527D3DE64009B8480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A0E02427D3DE64009B8480 /* Stroboscope.app */,
+				44A0E03A27D3DE65009B8480 /* StroboscopeTests.xctest */,
+				44A0E04427D3DE65009B8480 /* StroboscopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44A0E02627D3DE64009B8480 /* Stroboscope */ = {
+			isa = PBXGroup;
+			children = (
+				44A0E02727D3DE64009B8480 /* AppDelegate.swift */,
+				44A0E02927D3DE64009B8480 /* SceneDelegate.swift */,
+				44A0E02B27D3DE64009B8480 /* ViewController.swift */,
+				44A0E02D27D3DE64009B8480 /* Main.storyboard */,
+				44A0E03027D3DE65009B8480 /* Assets.xcassets */,
+				44A0E03227D3DE65009B8480 /* LaunchScreen.storyboard */,
+				44A0E03527D3DE65009B8480 /* Info.plist */,
+			);
+			path = Stroboscope;
+			sourceTree = "<group>";
+		};
+		44A0E03D27D3DE65009B8480 /* StroboscopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				44A0E03E27D3DE65009B8480 /* StroboscopeTests.swift */,
+			);
+			path = StroboscopeTests;
+			sourceTree = "<group>";
+		};
+		44A0E04727D3DE65009B8480 /* StroboscopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44A0E04827D3DE65009B8480 /* StroboscopeUITests.swift */,
+				44A0E04A27D3DE65009B8480 /* StroboscopeUITestsLaunchTests.swift */,
+			);
+			path = StroboscopeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44A0E02327D3DE64009B8480 /* Stroboscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A0E04E27D3DE65009B8480 /* Build configuration list for PBXNativeTarget "Stroboscope" */;
+			buildPhases = (
+				44A0E02027D3DE64009B8480 /* Sources */,
+				44A0E02127D3DE64009B8480 /* Frameworks */,
+				44A0E02227D3DE64009B8480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stroboscope;
+			productName = Stroboscope;
+			productReference = 44A0E02427D3DE64009B8480 /* Stroboscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44A0E03927D3DE65009B8480 /* StroboscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A0E05127D3DE65009B8480 /* Build configuration list for PBXNativeTarget "StroboscopeTests" */;
+			buildPhases = (
+				44A0E03627D3DE65009B8480 /* Sources */,
+				44A0E03727D3DE65009B8480 /* Frameworks */,
+				44A0E03827D3DE65009B8480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A0E03C27D3DE65009B8480 /* PBXTargetDependency */,
+			);
+			name = StroboscopeTests;
+			productName = StroboscopeTests;
+			productReference = 44A0E03A27D3DE65009B8480 /* StroboscopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44A0E04327D3DE65009B8480 /* StroboscopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A0E05427D3DE65009B8480 /* Build configuration list for PBXNativeTarget "StroboscopeUITests" */;
+			buildPhases = (
+				44A0E04027D3DE65009B8480 /* Sources */,
+				44A0E04127D3DE65009B8480 /* Frameworks */,
+				44A0E04227D3DE65009B8480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A0E04627D3DE65009B8480 /* PBXTargetDependency */,
+			);
+			name = StroboscopeUITests;
+			productName = StroboscopeUITests;
+			productReference = 44A0E04427D3DE65009B8480 /* StroboscopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44A0E01C27D3DE64009B8480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					44A0E02327D3DE64009B8480 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					44A0E03927D3DE65009B8480 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 44A0E02327D3DE64009B8480;
+					};
+					44A0E04327D3DE65009B8480 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 44A0E02327D3DE64009B8480;
+					};
+				};
+			};
+			buildConfigurationList = 44A0E01F27D3DE64009B8480 /* Build configuration list for PBXProject "Stroboscope" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44A0E01B27D3DE64009B8480;
+			productRefGroup = 44A0E02527D3DE64009B8480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44A0E02327D3DE64009B8480 /* Stroboscope */,
+				44A0E03927D3DE65009B8480 /* StroboscopeTests */,
+				44A0E04327D3DE65009B8480 /* StroboscopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44A0E02227D3DE64009B8480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0E03427D3DE65009B8480 /* LaunchScreen.storyboard in Resources */,
+				44A0E03127D3DE65009B8480 /* Assets.xcassets in Resources */,
+				44A0E02F27D3DE64009B8480 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0E03827D3DE65009B8480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0E04227D3DE65009B8480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44A0E02027D3DE64009B8480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0E02C27D3DE64009B8480 /* ViewController.swift in Sources */,
+				44A0E02827D3DE64009B8480 /* AppDelegate.swift in Sources */,
+				44A0E02A27D3DE64009B8480 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0E03627D3DE65009B8480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0E03F27D3DE65009B8480 /* StroboscopeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0E04027D3DE65009B8480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0E04B27D3DE65009B8480 /* StroboscopeUITestsLaunchTests.swift in Sources */,
+				44A0E04927D3DE65009B8480 /* StroboscopeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44A0E03C27D3DE65009B8480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A0E02327D3DE64009B8480 /* Stroboscope */;
+			targetProxy = 44A0E03B27D3DE65009B8480 /* PBXContainerItemProxy */;
+		};
+		44A0E04627D3DE65009B8480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A0E02327D3DE64009B8480 /* Stroboscope */;
+			targetProxy = 44A0E04527D3DE65009B8480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44A0E02D27D3DE64009B8480 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A0E02E27D3DE64009B8480 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44A0E03227D3DE65009B8480 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A0E03327D3DE65009B8480 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44A0E04C27D3DE65009B8480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44A0E04D27D3DE65009B8480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44A0E04F27D3DE65009B8480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = KPA4C39N5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stroboscope/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnyTrofi.Stroboscope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		44A0E05027D3DE65009B8480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = KPA4C39N5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stroboscope/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnyTrofi.Stroboscope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		44A0E05227D3DE65009B8480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPA4C39N5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnyTrofi.StroboscopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stroboscope.app/Stroboscope";
+			};
+			name = Debug;
+		};
+		44A0E05327D3DE65009B8480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPA4C39N5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnyTrofi.StroboscopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stroboscope.app/Stroboscope";
+			};
+			name = Release;
+		};
+		44A0E05527D3DE65009B8480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPA4C39N5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnyTrofi.StroboscopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stroboscope;
+			};
+			name = Debug;
+		};
+		44A0E05627D3DE65009B8480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPA4C39N5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnyTrofi.StroboscopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stroboscope;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44A0E01F27D3DE64009B8480 /* Build configuration list for PBXProject "Stroboscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0E04C27D3DE65009B8480 /* Debug */,
+				44A0E04D27D3DE65009B8480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A0E04E27D3DE65009B8480 /* Build configuration list for PBXNativeTarget "Stroboscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0E04F27D3DE65009B8480 /* Debug */,
+				44A0E05027D3DE65009B8480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A0E05127D3DE65009B8480 /* Build configuration list for PBXNativeTarget "StroboscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0E05227D3DE65009B8480 /* Debug */,
+				44A0E05327D3DE65009B8480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A0E05427D3DE65009B8480 /* Build configuration list for PBXNativeTarget "StroboscopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0E05527D3DE65009B8480 /* Debug */,
+				44A0E05627D3DE65009B8480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44A0E01C27D3DE64009B8480 /* Project object */;
+}
